@@ -219,9 +219,73 @@ h3{
 
 /* CONTATO.HTML */
 
+.formulario{
+    padding: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.formulariobox{
+    height: 455px;
+    box-shadow: 0 0.9rem 0.9rem silver;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    margin: 40px;
+    font-size: 20p;
+    font-weight: 900;
+    text-align: center;
+    align-items: center; 
+}
 
+.name-email-fone-msg{
+    display: flex;
+    padding: 10px;
+}
 
+.name-email-fone-msg, input{
+    font-size: 20;
+}
+
+input{
+background-color: whitesmoke;
+}
+
+textarea{
+    background-color: whitesmoke;
+
+}
+button{
+    display: flex;
+    padding: 10px;  
+    
+}
+
+.maps{
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.endereco{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+}
+
+.contato{
+    border: none;
+    color:black;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
 
 
 
@@ -303,11 +367,7 @@ h3{
         border-radius: 10px;
     }  
     
-
-
-
 /* pizzas.html */
-
 
 .principal{
     display: flex;
@@ -360,5 +420,77 @@ h3{
     border-radius: 0px;
 }
     
+/* CONTATO.HTML */
+
+.formulario{
+    padding: 110px;
+    display: block;
+    justify-content: space-evenly;
+}
+
+.formulariobox{
+    box-shadow: 0 0.9rem 0.9rem silver;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 60px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    align-items: center; 
+    height: 350px;
+}
+
+.name-email-fone-msg{
+    display: block;
+    padding: 10px;
+}
+
+.name-email-fone-msg, input{
+    display: block;
+    font-size: 20;
+}
+
+input{
+   display: block;
+    background-color: whitesmoke;
+}
+
+textarea{
+    background-color: whitesmoke;
+}
+button{
+    display: inline;
+    padding: 10px;   
+}
+
+.maps{
+    align-items: center;
+}
+.maps  iframe {
+    width: 390px !important;
+    height: 250px !important;
+    min-height: calc(70vh - 170px);
+  }
     
+.endereco{
+    
+    background-color: yellow;
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contato{
+    border: none;
+    color:black;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}    
 }
