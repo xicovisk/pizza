@@ -135,9 +135,7 @@ h3{
 }
 
 
-
 /* SOBRE.HTML */
-
 
 #p-sobre{
     margin-top: 50px;
@@ -161,9 +159,7 @@ h3{
 }
 
 
-
 /* PIZZAS.HTML */
-
 
 .principal{
     display: flex;
@@ -227,6 +223,8 @@ h3{
 
 .formulariobox{
     box-shadow: 0 0.9rem 0.9rem silver;
+    background-color: yellow;
+    border: solid black;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -256,6 +254,7 @@ textarea{
     background-color: whitesmoke;
 
 }
+
 button{
     display: flex;
     padding: 10px;  
@@ -278,14 +277,19 @@ button{
     color: red;
 }
 
+
 .contato{
-    border: none;
     color:black;
     background-color: white;
     margin: 10px;
     text-align: center;
 }
 
+.contato2{
+    border-width: 2px;
+    font-size: 20px;
+    border-width: 2px;
+}
 
 
 /* RESPONSIVO */
@@ -468,7 +472,7 @@ button{
     align-items: center;
 }
 .maps  iframe {
-    width: 390px !important;
+    width: 350px !important;
     height: 250px !important;
     min-height: calc(70vh - 170px);
   }
@@ -489,7 +493,16 @@ button{
     background-color: white;
     margin: 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 20px;
-}    
+}   
+#ondeestamos{
+    font-size: 17px;
+    border-width: 2px;
+    margin-bottom: 22px;
+} 
+.contato2{
+    font-size: 15px;
+    border-width: 1px;
+}
 }
