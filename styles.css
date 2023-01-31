@@ -226,7 +226,6 @@ h3{
 }
 
 .formulariobox{
-    height: 455px;
     box-shadow: 0 0.9rem 0.9rem silver;
     display: flex;
     justify-content: space-evenly;
@@ -237,6 +236,7 @@ h3{
     font-weight: 900;
     text-align: center;
     align-items: center; 
+    height: 390px;
 }
 
 .name-email-fone-msg{
@@ -269,7 +269,6 @@ button{
 }
 
 .endereco{
-    
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -430,15 +429,16 @@ button{
 
 .formulariobox{
     box-shadow: 0 0.9rem 0.9rem silver;
+    justify-content: space-evenly;
     display: inline-block;
     margin: 0px;
     margin-top: 60px;
     padding: 0px;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 900;
     text-align: center;
     align-items: center; 
-    height: 350px;
+    height: 350x; 
 }
 
 .name-email-fone-msg{
@@ -453,7 +453,7 @@ button{
 
 input{
    display: block;
-    background-color: whitesmoke;
+   background-color: whitesmoke;
 }
 
 textarea{
@@ -474,12 +474,11 @@ button{
   }
     
 .endereco{
-    
     background-color: yellow;
     color: red;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
 }
@@ -491,6 +490,6 @@ button{
     margin: 10px;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }    
 }
